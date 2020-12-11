@@ -1,9 +1,11 @@
 <?php
 
 $goback = "<a href='smallproject.php'>Go Back</a>";
+
 if(isset($_POST["submit"])){
 
     if($_SERVER ['REQUEST_METHOD'] == "POST"){
+
         $mark = $_POST['mark'];
         if($mark <= 39){
             echo "Failed" . "<br/> <br/>";

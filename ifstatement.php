@@ -55,7 +55,7 @@ if($num1 < $num2 && $num1 > $num3){
 
 echo "<hr/>";
 
-if(!$num1 < $num2){
+if($num1 != $num2){
     echo "true";
 }else{
     echo "false";

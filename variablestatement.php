@@ -34,14 +34,14 @@ if(is_bool($num4)){
 }
 
 echo "<hr/>";
-$num5 = [1,2];
+$num5 = [1,2.5];
 var_dump($num5);
 if(is_array($num5)){
     echo "Your variable is Array";
 }
 
 echo "<hr/>";
-$num6 = [];
+$num6 = [];    //can use "";
 var_dump($num6);
 if(empty($num6)){
     echo "Your variable is Empty";
@@ -52,6 +52,13 @@ $num7 =12;
 var_dump($num7);
 if(is_int($num7)){
     echo "Your variable is Integer";
+}
+
+echo "<hr/>";
+$num8 = NULL;
+var_dump($num8);
+if(is_null($num8)){
+    echo "Your variable is null";
 }
 
 

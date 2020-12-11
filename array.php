@@ -50,6 +50,7 @@ echo "<hr/>";
 
 //key and value output 
 foreach($val2 as $key=>$value){
+    // echo $key . "=>" . $value;
      echo $key. "<br/>";
      echo $value. "<br/>";
 }

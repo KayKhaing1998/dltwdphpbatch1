@@ -6,6 +6,7 @@ printf("Hello Myanmar",true);
 
 echo "<hr/>";
 
+// Variable
 $kay = "Kay Khaing Tun";
 echo $kay;
 
@@ -17,6 +18,7 @@ echo $val1." ".$val2;
 
 echo "<hr/>";
 
+// Arithmetic Operator
 $num1 = 10;
 $num2 = 2;
 
@@ -30,6 +32,7 @@ echo $num1/$num2;
 
 echo "<hr/>";
 
+//Ternery Operator
 echo (10>1) ? "true" : "false";
 
 echo "<hr/>";
